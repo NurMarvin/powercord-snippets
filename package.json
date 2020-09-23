@@ -1,0 +1,25 @@
+{
+  "name": "powercord-snippets",
+  "displayName": "Powercord Snippets",
+  "description": "Useful snippets for Powercord plugin development",
+  "version": "1.0.0",
+  "license": "OSL-3.0",
+  "engines": {
+    "vscode": "^1.49.0"
+  },
+  "categories": [
+    "Snippets"
+  ],
+  "contributes": {
+    "snippets": [
+      {
+        "language": "javascript",
+        "path": "./snippets/javascript.code-snippets"
+      },
+      {
+        "language": "javascriptreact",
+        "path": "./snippets/javascriptreact.code-snippets"
+      }
+    ]
+  }
+}

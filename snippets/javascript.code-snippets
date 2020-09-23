@@ -1,0 +1,45 @@
+/*
+ * Copyright (c) 2020 NurMarvin (Marvin Witt)
+ * Licensed under the Open Software License version 3.0
+ */
+{
+  "Powercord Plugin": {
+    "prefix": "pcp",
+    "description": "Creates a Powercord plugin class scaffold",
+    "body": [
+      "const { Plugin } = require('powercord/entities');",
+      "",
+      "module.exports = class ${1:Plugin} extends Plugin {",
+      "  startPlugin() {",
+      "    $0",
+      "  }",
+      "",
+      "  pluginWillUnload() {",
+      "     ",
+      "  }",
+      "}"
+    ]
+  },
+  "Powercord Inject": {
+    "prefix": "pci",
+    "description": "Creates a inject scaffold",
+    "body": [
+      "inject('${1:injectionId}', ${2:Module}, '${4:functionName}', (args, res) => {",
+      "  $0",
+      "  return res;",
+      "});"
+    ]
+  },
+  "Powercord Webpack": {
+    "prefix": "pcwp",
+    "description": "Imports webpack from Powercord's implementation",
+    "body": ["const { $1 } = require('powercord/webpack');", "$0"]
+  },
+  "Powercord Get Functional Component By displayName": {
+    "prefix": "pcgfc",
+    "body": [
+      "const ${1:displayName} = await getModule(m => m.default && m.default.displayName === '${1:displayName}');",
+      "$0"
+    ]
+  }
+}

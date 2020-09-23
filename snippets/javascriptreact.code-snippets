@@ -1,0 +1,32 @@
+/*
+ * Copyright (c) 2020 NurMarvin (Marvin Witt)
+ * Licensed under the Open Software License version 3.0
+ */
+{
+  "Powercord React Component": {
+    "prefix": "pcrc",
+    "description": "Creates a React component scaffold based on Powercord's webpack implementation",
+    "body": [
+      "const { React } = require('powercord/webpack');",
+      "",
+      "module.exports = class ${1:Component} extends React.Component {",
+      "  render() {",
+      "    $0",
+      "  }",
+      "}"
+    ]
+  },
+  "Powercord React PureComponent": {
+    "prefix": "pcrpc",
+    "description": "Creates a React pure component scaffold based on Powercord's webpack implementation",
+    "body": [
+      "const { React } = require('powercord/webpack');",
+      "",
+      "module.exports = class ${1:Component} extends React.PureComponent {",
+      "  render() {",
+      "    $0",
+      "  }",
+      "}"
+    ]
+  }
+}
