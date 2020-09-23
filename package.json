@@ -4,6 +4,12 @@
   "description": "Useful snippets for Powercord plugin development",
   "version": "1.0.0",
   "license": "OSL-3.0",
+  "publisher": "marvin",
+  "icon": "assets/powercord.png",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/NurMarvin/powercord-snippets/"
+  },
   "engines": {
     "vscode": "^1.49.0"
   },

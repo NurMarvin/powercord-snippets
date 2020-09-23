@@ -1,5 +1,5 @@
 # Powercord Snippets
-This is the README for your extension "powercord-snippets". After writing up a brief description, we recommend including the following sections.
+Useful snippets for Powercord plugin development
 
 ## Features
 - Javascript Snippets for faster plugin development:
