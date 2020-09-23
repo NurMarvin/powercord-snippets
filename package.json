@@ -25,6 +25,10 @@
       {
         "language": "javascriptreact",
         "path": "./snippets/javascriptreact.code-snippets"
+      },
+      {
+        "language": "json",
+        "path": "./snippets/json.code-snippets"
       }
     ]
   }

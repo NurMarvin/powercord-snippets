@@ -14,7 +14,11 @@ Useful snippets for Powercord plugin development
 ## Release Notes
 ### 1.0.0
 
-Initial release of Powercord Snippets :tada:
+Initial release of Powercord Snippets 🎉
+
+### 1.1.0
+
+Add JSON snippets
 
 ## License
 This extension is released under the OSL 3.0 License. For more information refer to the [LICENSE] file.

@@ -1,0 +1,33 @@
+/*
+ * Copyright (c) 2020 NurMarvin (Marvin Witt)
+ * Licensed under the Open Software License version 3.0
+ */
+{
+  "Powercord Plugin Manifest": {
+    "prefix": "pcpm",
+    "description": "Creates a Powercord plugin manifest scaffold",
+    "body": [
+      "{",
+      "  \"name\": \"${1:Plugin Name}\",",
+      "  \"description\": \"${2:Plugin Description}\",",
+      "  \"author\": \"${3:Plugin Author}\",",
+      "  \"license\": \"${4:Plugin License}\",",
+      "  \"version\": \"${5:0.0.1}\"",
+      "}"
+    ]
+  },
+  "Powercord Theme Manifest": {
+    "prefix": "pctm",
+    "description": "Creates a Powercord theme manifest scaffold",
+    "body": [
+      "{",
+      "  \"name\": \"${1:Theme Name}\",",
+      "  \"description\": \"${2:Theme Description}\",",
+      "  \"author\": \"${3:Theme Author}\",",
+      "  \"license\": \"${4:Theme License}\",",
+      "  \"theme\": \"${5:theme.css}\",",
+      "  \"version\": \"${6:0.0.1}\"",
+      "}"
+    ]
+  }
+}
