@@ -9,7 +9,6 @@ Useful snippets for Powercord plugin development
 
 ## Planned Features
 - (S)CSS Snippets
-- (S)CSS Auto Completion for Discord's built in CSS variables
 
 ## Release Notes
 ### 1.0.0
